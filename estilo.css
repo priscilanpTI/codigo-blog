@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.texto-destaque{
+    color: #22D4FD;
+  
+}
+
+.container{
+  margin: 10%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.container__conteudo{
+  width: 615px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__links__botoes{
+
+ background-color: #22D4FD;
+  text-align: center;
+  width: 100px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 21px 0;
+  text-decoration: none;
+}
